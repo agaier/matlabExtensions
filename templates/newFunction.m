@@ -29,7 +29,7 @@ function [output1,output2] = function_name(input1,input2,input3)
 % Author: Adam Gaier
 % Bonn-Rhein-Sieg University of Applied Sciences (BRSU)
 % email: adam.gaier@h-brs.de
-% Mar 2016; Last revision: 7-Mar-2016
+% May 2016; Last revision: 16-May-2016
 
 %------------- BEGIN CODE --------------
 
