@@ -3,6 +3,8 @@
 % possible locations) and these commands will be used whenever you start
 % matlab
 %
+% Example: !cp startup.m /home/adam/Documents/MATLAB
+%
 % Author: Adam Gaier
 % Bonn-Rhein-Sieg University of Applied Sciences (BRSU)
 % email: adam.gaier@h-brs.de
