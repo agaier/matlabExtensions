@@ -14,12 +14,12 @@
 % folder with:
 
 sourceLayout =  [prefdir '/*Layout.xml'];
-layoutFolder =  'matlabExtensions/layouts';
+layoutFolder =  '';
 system(['cp ' sourceLayout ' ' layoutFolder]);
 
 % Then when you start using a new machine you can load all of your layouts
 % by running this line.
 
-system(['cp ' layoutFolder '/*Layout.xml ' prefdir]);
+system(['cp ' layoutFolder '*Layout.xml ' prefdir]);
 
 % Next time you restart Matlab all of your IDE layouts will be available
