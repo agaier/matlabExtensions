@@ -1,4 +1,4 @@
-function [output1,output2] = function_name(input1,input2,input3)
+function [output1, output2] = newFunction(input1,input2,input3)
 %FUNCTION_NAME - One line description of what the function or script performs (H1 line)
 %Optional file header info (to give more details about the function than in the H1 line)
 %Optional file header info (to give more details about the function than in the H1 line)
@@ -29,7 +29,7 @@ function [output1,output2] = function_name(input1,input2,input3)
 % Author: Adam Gaier
 % Bonn-Rhein-Sieg University of Applied Sciences (BRSU)
 % email: adam.gaier@h-brs.de
-% May 2016; Last revision: 16-May-2016
+% Jun 2016; Last revision: 03-Jun-2016
 
 %------------- BEGIN CODE --------------
 
