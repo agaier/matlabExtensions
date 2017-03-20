@@ -35,7 +35,7 @@ function out = seconds2human(secs, varargin)
 % Name       : Rody P.S. Oldenhuis
 % E-mail     : oldenhuis@gmail.com    (personal)
 %              oldenhuis@luxspace.lu  (professional)
-% Affiliation: LuxSpace sàrl
+% Affiliation: LuxSpace sï¿½rl
 % Licence    : GPL + anything implied by placing it on the FEX
 
 
@@ -43,7 +43,7 @@ function out = seconds2human(secs, varargin)
 % https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6G3S5UYM7HJ3N
 
     % default error
-    error(nargchk(1,2,nargin));%#ok
+    narginchk(1,2);
 
     % define some intuitive variables
     Seconds   = round(1                 );
@@ -97,7 +97,7 @@ function out = seconds2human(secs, varargin)
         % initialize nested loop
         secsj   = secs(j);
         counter = 0;       
-        if short, string = 'About ';
+        if short, string = 'about ';
         else      string = '';
         end
         
