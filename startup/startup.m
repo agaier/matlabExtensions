@@ -14,3 +14,4 @@
 
 % Dock Figures
 set(0,'DefaultFigureWindowStyle','docked')
+addpath(genpath('/home/adam/Code/matlabExtensions'))
