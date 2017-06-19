@@ -21,7 +21,8 @@
 function save2pdf(pdfFileName,handle,dpi)
 
 % Verify correct number of arguments
-error(nargchk(0,3,nargin));
+%error(nargchk(0,3,nargin));
+narginchk(0,3);
 
 % If no handle is provided, use the current figure as default
 if nargin<1
