@@ -29,7 +29,7 @@ function [output1, output2] = newFunction(input1,input2,input3)
 % Author: Adam Gaier
 % Bonn-Rhein-Sieg University of Applied Sciences (BRSU)
 % email: adam.gaier@h-brs.de
-% Jun 2017; Last revision: 19-Jun-2017
+% Jun 2017; Last revision: 30-Jul-2017
 
 %------------- BEGIN CODE --------------
 
