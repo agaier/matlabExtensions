@@ -1,4 +1,4 @@
-function [handle] = histPercent(data, varargin)
+function [handle, freqCount, binValue] = histPercent(data, varargin)
 %% histPercent
 % Plots histogram with y-axis scaled to percent of total
 %
