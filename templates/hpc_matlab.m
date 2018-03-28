@@ -76,6 +76,7 @@ disp(['Variable 1: ', stringVariable newline ...
       'Run number: ', int2str(runNumber)     ]);
 
 %% Parallelization Settings
+distcomp.feature( 'LocalUseMpiexec', false );
 nCores = 12; parpool(nCores);
 
 % Create Temp Directory for Multithreading
