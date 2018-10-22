@@ -28,8 +28,14 @@ function [output1, output2] = newFunction(input1, varargin)
 
 % Author: Adam Gaier
 % Bonn-Rhein-Sieg University of Applied Sciences (BRSU)
-% email: adam.gaier@h-brs.de
-% Oct 2017; Last revision: 04-Oct-2017
+% Inria Nancy - Grand Est
+% email: adam.gaier@{h-brs.de, inria.fr}
+% Oct 2018; Last revision: 22-Oct-2018
+
+% TODO:
+% * Write todo list
+% * Complete todo list
+
 
 %------------- Input Parsing ------------
 parse = inputParser;
