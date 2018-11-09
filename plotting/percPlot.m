@@ -43,6 +43,5 @@ else
     hLine = plot(x, medY,'Color','k','LineWidth',3); 
 end
 plot(x, medY,'k:','LineWidth',3); % Dotted line to make median more clear 
-hold off
 
 %------------- END OF CODE --------------

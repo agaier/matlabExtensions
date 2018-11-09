@@ -30,7 +30,7 @@ function [output1, output2] = newFunction(input1, varargin)
 % Bonn-Rhein-Sieg University of Applied Sciences (BRSU)
 % Inria Nancy - Grand Est
 % email: adam.gaier@{h-brs.de, inria.fr}
-% Oct 2018; Last revision: 22-Oct-2018
+% Nov 2018; Last revision: 22-Oct-2018
 
 % TODO:
 % * Write todo list
