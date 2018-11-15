@@ -15,3 +15,4 @@
 % Dock Figures
 set(0,'DefaultFigureWindowStyle','docked')
 addpath(genpath('~/Code/matlabExtensions/'))
+set(0, 'DefaultFigureRenderer', 'opengl');
