@@ -42,7 +42,7 @@ for iDataSet = 1:numel(varargin)
     X = [X; varargin{iDataSet}(:)];
 end
 
-h= boxplot(X,G(:));
+h= boxplot(X,G(:),'Orientation','horizontal');
 
 
 %------------- END OF CODE --------------
